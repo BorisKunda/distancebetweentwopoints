@@ -24,7 +24,7 @@ float [] results = new float[5];//reminder : new float [5] means results array h
        Location.distanceBetween(latitude1,longitude1,latitude2,longitude2,results);// IN METERS
 
 
-            Log.e("distance",results[0] + " meters ");
+            Log.e("distance",results[0] + " meters ");//you always need first one ([0]) the rest([1],[2].[3]..)  is irrelevant.make your array any number bigger than 10
 
 
     }
